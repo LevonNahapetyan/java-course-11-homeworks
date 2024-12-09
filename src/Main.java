@@ -458,6 +458,199 @@ public class Main {
 
 
 
+//------------------------------------------------Homework3--------------------------------------------
+
+
+
+        int[] array = {1, -5, 6, 14, -8, 23, 2, -12};
+        int count = 0;
+
+
+
+        //211
+//        double sum = 0;
+//        for(int i = 0; i < array.length; i++) {
+//            if(array[i]>0){
+//                sum += array[i];
+//                count++;
+//            }
+//        }
+//        System.out.println(sum/count);
+
+
+
+        //214
+//        double sum = 0;
+//        for(int i = 0; i < array.length; i++) {
+//            if(array[i] < 0) {
+//                sum += array[i];
+//                count++;
+//            }
+//        }
+//        System.out.println(sum/count);
+
+
+
+        //215
+//        double sum = 0;
+//        for(int i = 0; i < array.length; i++) {
+//            if(i % 2 == 0) {
+//                sum += array[i];
+//            }
+//        }
+//        System.out.println(sum);
+
+
+
+        //216
+//        int product = 1;
+//        for(int i = 0; i < array.length; i++) {
+//            if(i % 2 == 0) {
+//                product *= array[i];
+//            }
+//        }
+//        System.out.println(product);
+
+
+
+        //217
+//        int product = 1;
+//        for(int i = 0; i < array.length; i++) {
+//            if(i % 2 != 0) {
+//                product *= array[i] * array[i];
+//            }
+//        }
+//        System.out.println(product);
+
+
+
+        //220
+//        for(int i = 0; i < array.length; i++) {
+//            if(array[i] != 0) {
+//                count++;
+//            }
+//        }
+//        System.out.println(count);
+
+
+
+        //227
+//        int k = 3;
+//        double sum = 0;
+//        for(int i = 0; i < array.length; i++) {
+//            if(array[i] % k == 0) {
+//                sum += array[i];
+//                count++;
+//            }
+//        }
+//        System.out.println(sum/count);
+
+
+
+        //228
+//        int k = 5;
+//        int sum = 0;
+//        for(int i = 0; i < array.length; i++) {
+//            if(i % k == 0) {
+//                sum += array[i];
+//            }
+//        }
+//        System.out.println(sum);
+
+
+
+        //229
+//        int product = 1;
+//        for(int i = 0; i < array.length; i++) {
+//            if(array[i] - i > 0) {
+//                product *= array[i];
+//            }
+//        }
+//        System.out.println(product);
+
+
+
+        //232
+//        for(int i = 0; i < array.length; i++) {
+//            if(array[i] % 2 == 0) {
+//                count++;
+//            }
+//        }
+//        System.out.println(count);
+
+
+
+        //233
+//        int sum = 0;
+//        int product = 1;
+//        for(int i : array) {
+//            if(i % 2 == 0) {
+//                sum += i;
+//                product *= i;
+//            }
+//        }
+//        System.out.println("sum: " + sum);
+//        System.out.println("product: " + product);
+
+
+
+       //234
+//        double sum = 0;
+//        for(int i : array) {
+//            if(i % 2 != 0) {
+//                sum += i;
+//                count++;
+//            }
+//        }
+//        System.out.println(sum/count);
+
+
+
+        //237
+//        for(int i : array) {
+//            if(i == 0) {
+//                count++;
+//            }
+//        }
+//        System.out.println(count);
+
+
+
+        //238
+//        double sum = 0;
+//        for(int i : array) {
+//            if(i % 3 == 0) {
+//                sum += i;
+//                count++;
+//            }
+//        }
+//        System.out.println(sum/count);
+
+
+
+        //240
+//        for(int i : array) {
+//            if(i % 7 == 0) {
+//                count++;
+//            }
+//        }
+//        System.out.println(count);
+
+
+
+        //245
+        double sum = 0;
+        for(int i = 0; i < array.length; i++) {
+            if((array[i] + i) % 3 == 0) {
+                sum += array[i] * array[i];
+            }
+        }
+        System.out.println(sum);
+
+
+
+
+
 
 
 
