@@ -655,7 +655,7 @@ public class Main {
 //---------------------------------------------Homework3------------------------------------------------
 
 
-        int[] array = {-9, 3, 1, 230, 12, 234, 4, 15};
+        int[] array = {32, 4, 200, 239, 12, 239, 4, 15};
 
 
         //251
@@ -723,16 +723,54 @@ public class Main {
 
 
         //257
-        int max = array[0];
-        int index = 0;
-        for(int i = 0; i < array.length; i++) {
-            if(array[i] > max) {
-                index = i;
-                break;
-            }
-        }
-        System.out.println(index);
+//        int max = array[0];
+//        int index = 0;
+//        for(int i = 1; i < array.length; i++) {
+//            if(array[i] > max) {
+//                max = array[i];
+//                index = i;
+//            }
+//        }
+//        System.out.println(index);
 
+
+
+        //258
+//        int max = array[array.length-1];
+//        int index = 0;
+//        for(int i = array.length - 2; i > 0; i--) {
+//            if(array[i] > max) {
+//                max = array[i];
+//                index = i;
+//            }
+//        }
+//        System.out.println(index);
+
+
+
+        //259
+//        int min = array[0];
+//        int index = 0;
+//        for(int i = 1; i < array.length; i++) {
+//            if(array[i] < min) {
+//                min = array[i];
+//                index = i;
+//            }
+//        }
+//        System.out.println(index);
+
+
+
+        //260
+//        int min = array[array.length-1];
+//        int index = 0;
+//        for(int i = array.length - 2; i > 0; i--) {
+//            if(array[i] < min) {
+//                min = array[i];
+//                index = i;
+//            }
+//        }
+//        System.out.println(index);
 
 
 
