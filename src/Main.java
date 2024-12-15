@@ -462,8 +462,8 @@ public class Main {
 
 
 
-        int[] array = {1, -5, 6, 14, -8, 23, 2, -12};
-        int count = 0;
+//        int[] array = {1, -5, 6, 14, -8, 23, 2, -12};
+//        int count = 0;
 
 
 
@@ -639,13 +639,108 @@ public class Main {
 
 
         //245
-        double sum = 0;
+//        double sum = 0;
+//        for(int i = 0; i < array.length; i++) {
+//            if((array[i] + i) % 3 == 0) {
+//                sum += array[i] * array[i];
+//            }
+//        }
+//        System.out.println(sum);
+
+
+
+
+
+
+//---------------------------------------------Homework3------------------------------------------------
+
+
+        int[] array = {-9, 3, 1, 230, 12, 234, 4, 15};
+
+
+        //251
+//        int max = array[0];
+//        for(int i = 1; i < array.length; i++) {
+//            if(array[i] > max) {
+//                max = array[i];
+//            }
+//        }
+//        System.out.println(max);
+
+
+
+        //252
+//        int min = array[0];
+//        for(int i = 1; i < array.length; i++) {
+//            if(array[i] < min) {
+//                min = array[i];
+//            }
+//        }
+//        System.out.println(min);
+
+
+
+        //253, 254
+//        int max = array[0];
+//        int min = array[1];
+//        for(int i = 0; i < array.length; i++) {
+//            if(array[i] > max) {
+//                max = array[i];
+//            }
+//            if(array[i] < min) {
+//                min = array[i];
+//            }
+//        }
+//        System.out.println(max + min); //253
+//        System.out.println(max * min); //254
+
+
+
+        //255
+//        int max = array[0];
+//        int index = 0;
+//        for(int i = 1; i < array.length; i++) {
+//            if(array[i] > max) {
+//                max = array[i];
+//                index = i;
+//            }
+//        }
+//        System.out.println(max + index);
+
+
+
+        //256
+//        int min = array[0];
+//        int index = 0;
+//        for(int i = 1; i < array.length; i++) {
+//            if(array[i] < min) {
+//                min = array[i];
+//                index = i;
+//            }
+//        }
+//        System.out.println(min + index);
+
+
+
+        //257
+        int max = array[0];
+        int index = 0;
         for(int i = 0; i < array.length; i++) {
-            if((array[i] + i) % 3 == 0) {
-                sum += array[i] * array[i];
+            if(array[i] > max) {
+                index = i;
+                break;
             }
         }
-        System.out.println(sum);
+        System.out.println(index);
+
+
+
+
+
+
+
+
+
 
 
 
