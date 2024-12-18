@@ -2,9 +2,9 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        double a = 10;
-        double b = 40;
-        double c = 7;
+//        double a = 10;
+//        double b = 40;
+//        double c = 7;
 
 
         //21
@@ -655,7 +655,7 @@ public class Main {
 //---------------------------------------------Homework3------------------------------------------------
 
 
-        int[] array = {32, 4, 200, 239, 12, 239, 4, 15};
+//        int[] array = {32, 4, 200, 239, 12, 239, 4, 15};
 
 
         //251
@@ -774,6 +774,264 @@ public class Main {
 
 
 
+
+
+
+
+//        int[] x = {2, 8, -9, 0, 7, 9, 33, 28};
+//        int[] y = {-1, 3, 4, -5, 12, 2, 23, -12};
+
+        //261
+//        double sumX = 0;
+//        double sumY = 0;
+//        int countX = 0;
+//        int countY = 0;
+//        for(int i : x) {
+//            sumX += i;
+//            countX++;
+//        }
+//        for(int i : y) {
+//            sumY += i;
+//            countY++;
+//        }
+//        System.out.println((sumX/countX) * (sumY/countY));
+
+
+
+        //263
+//        int count = 0;
+//        for(int i = 0, j = 0; i < x.length; i++, j++) {
+//            if(x[i] > 0) {
+//                count++;
+//            }
+//            if(y[j] > 0) {
+//                count++;
+//            }
+//        }
+//        System.out.println(count);
+
+
+
+        //264
+//        int count = 0;
+//        for(int i = 0; i < x.length; i++) {
+//            if(x[i] < 0) {
+//                count++;
+//            }
+//            if(y[i] < 0) {
+//                count++;
+//            }
+//        }
+//        System.out.println(count);
+
+
+
+        //265
+//        int sumX = 0;
+//        int productY = 1;
+//        for(int i = 0; i < x.length; i++) {
+//            sumX += x[i];
+//            productY *= y[i];
+//        }
+//        System.out.println((double)sumX/productY);
+
+
+
+        //266
+//        int sumX = 0;
+//        int sumY = 0;
+//        for(int i = 0; i < x.length; i++) {
+//            if(x[i] % 2 != 0) {
+//                sumX += x[i];
+//            }
+//            if(y[i] % 2 == 0) {
+//                sumY += y[i];
+//            }
+//        }
+//        System.out.println(sumX - sumY);
+
+
+
+        //267
+//        int sum = 0;
+//        for(int i = 0; i < x.length; i++) {
+//            if(x[i] % 7 == 0){
+//                sum += x[i];
+//            }
+//            if(y[i] % 7 == 0){
+//                sum += y[i];
+//            }
+//        }
+//        System.out.println(sum);
+
+
+
+        //269
+//        int sum = 0;
+//        for(int i = 0; i < x.length; i++) {
+//            if(i % 2 == 0) {
+//                sum += x[i];
+//            }
+//            if(i % 2 != 0) {
+//                sum += y[i];
+//            }
+//        }
+//        System.out.println(sum);
+
+
+
+
+
+        int[] array = {0, 1, 2, 3, 4, 8, 13, 63};
+
+        //281
+//        int count = 0;
+//        for(int e : array) {
+//            if(e > 0) {
+//                count++;
+//            }
+//        }
+//        int[] newArray = new int[count];
+//        int j = 0;
+//        for(int e : array) {
+//            if(e > 0) {
+//                newArray[j] = e;
+//                j++;
+//            }
+//        }
+//        System.out.println(Arrays.toString(newArray));
+
+
+
+        //282
+//        int count = 0;
+//        for(int e : array) {
+//            if(e != 0) {
+//                count++;
+//            }
+//        }
+//        int[] newArray = new int[count];
+//        int j = 0;
+//        for(int e : array) {
+//            if(e != 0) {
+//                newArray[j] = e;
+//                j++;
+//            }
+//        }
+//        System.out.println(Arrays.toString(newArray));
+
+
+
+        //283
+//        int count = 0;
+//        for(int e : array) {
+//            if(e % 2 != 0) {
+//                count++;
+//            }
+//        }
+//        int[] newArray = new int[count];
+//        int j = 0;
+//        for(int e : array) {
+//            if(e % 2 != 0) {
+//                newArray[j] = e;
+//                j++;
+//            }
+//        }
+//        System.out.println(Arrays.toString(newArray));
+
+
+
+        //285
+//        int p = 4;
+//        int count = 0;
+//        for(int e : array) {
+//            if(e % p == 0) {
+//                count++;
+//            }
+//        }
+//        int[] newArray = new int[count];
+//        int j = 0;
+//        for(int e : array) {
+//            if(e % p == 0) {
+//                newArray[j] = e;
+//                j++;
+//            }
+//        }
+//        System.out.println(Arrays.toString(newArray));
+
+
+
+        //286
+//        int count = 0;
+//        for(int e : array) {
+//            if(e % 2 == 0) {
+//                count++;
+//            }
+//        }
+//        int[] newArray = new int[count];
+//        int j = 0;
+//        for(int e : array) {
+//            if(e % 2 == 0) {
+//                newArray[j] = e;
+//                j++;
+//            }
+//        }
+//        System.out.println(Arrays.toString(newArray));
+
+
+
+        //287
+//        int count = 0;
+//        for(int i = 0; i < array.length; i++) {
+//            if(array[i] != i) {
+//                count++;
+//            }
+//        }
+//        int[] newArray = new int[count];
+//        for(int i = 0, j = 0; i < array.length; i++) {
+//            if(array[i] != i) {
+//                newArray[j] = array[i];
+//                j++;
+//            }
+//        }
+//        System.out.println(Arrays.toString(newArray));
+
+
+
+        //288
+//        int count = 0;
+//        for(int i = 0; i < array.length; i++) {
+//            if(i % 2 != 0) {
+//                count++;
+//            }
+//        }
+//        int[] newArray = new int[count];
+//        for(int i = 0, j = 0; i < array.length; i++) {
+//            if(i % 2 != 0) {
+//                newArray[j] = array[i];
+//                j++;
+//            }
+//        }
+//        System.out.println(Arrays.toString(newArray));
+
+
+
+        //290
+//        int count = 0;
+//        for(int e : array) {
+//            if(e % 6 == 1) {
+//                count++;
+//            }
+//        }
+//        int[] newArray = new int[count];
+//        int j = 0;
+//        for(int e : array) {
+//            if(e % 6 == 1) {
+//                newArray[j] = e;
+//                j++;
+//            }
+//        }
+//        System.out.println(Arrays.toString(newArray));
 
 
 
