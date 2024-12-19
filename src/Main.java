@@ -778,6 +778,7 @@ public class Main {
 
 
 
+
 //        int[] x = {2, 8, -9, 0, 7, 9, 33, 28};
 //        int[] y = {-1, 3, 4, -5, 12, 2, 23, -12};
 
@@ -882,7 +883,8 @@ public class Main {
 
 
 
-        int[] array = {0, 1, 2, 3, 4, 8, 13, 63};
+
+//        int[] array = {0, 1, 2, 3, 4, 8, 13, 63};
 
         //281
 //        int count = 0;
@@ -1032,6 +1034,211 @@ public class Main {
 //            }
 //        }
 //        System.out.println(Arrays.toString(newArray));
+
+
+
+
+
+
+
+
+//--------------------------------  Homework 4  -------------------------
+
+
+        //301
+//        int k = 13;
+//        int count = 0;
+//        for(int i = 10; i <= 99; i++) {
+//            if(i % k == 0) {
+//                count++;
+//            }
+//        }
+//        int[] array = new int[count];
+//        for(int i = 10, j = 0; i < 99; i++) {
+//            if(i % k == 0) {
+//                array[j] = i;
+//                j++;
+//            }
+//        }
+//        System.out.println(Arrays.toString(array));
+
+
+
+        //302
+//        int count = 0;
+//        for(int i = 100; i <= 999; i++) {
+//            if(i % 5 == 2) {
+//                count++;
+//            }
+//        }
+//        int[] array = new int[count];
+//        for(int i = 100, j = 0; i <= 999; i++) {
+//            if(i % 5 == 2) {
+//                array[j] = i;
+//                j++;
+//            }
+//        }
+//        System.out.println(Arrays.toString(array));
+
+
+
+        //303
+//        int n = 30;
+//        int count = 0;
+//        for(int i = 0; i <= 999; i++) {
+//            if(i % n == 0) {
+//                count++;
+//            }
+//        }
+//        int[] array = new int[count];
+//        for(int i = 0, j = 0; i <= 999; i++) {
+//            if(i % n == 0) {
+//                array[j] = i;
+//                j++;
+//            }
+//        }
+//        System.out.println(Arrays.toString(array));
+
+
+
+        //304
+//        int n = 20;
+//        int count = 0;
+//        for(int i = 0; i <= 999; i++) {
+//            if(i % n == 2) {
+//                count++;
+//            }
+//        }
+//        int[] array = new int[count];
+//        for(int i = 0, j = 0; i <= 999; i++) {
+//            if(i % n == 2) {
+//                array[j] = i;
+//                j++;
+//            }
+//        }
+//        System.out.println(Arrays.toString(array));
+
+
+
+        //305
+//        int count = 0;
+//        for(int i = 1000; i <= 9999; i++) {
+//            if(i % 3 == 0 && i % 5 == 0) {
+//                count++;
+//            }
+//        }
+//        int[] array = new int[count];
+//        for(int i = 1000, j = 0; i <= 9999; i++) {
+//            if(i % 3 == 0 && i % 5 == 0) {
+//                array[j] = i;
+//                j++;
+//            }
+//        }
+//        System.out.println(Arrays.toString(array));
+
+
+
+        //306
+//        int count = 0;
+//        for(int i = 10; i <= 99; i++) {
+//            if((i % 10) + (i / 10) % 10 > 5) {
+//                count++;
+//            }
+//        }
+//        int[] array = new int[count];
+//        for(int i = 10, j = 0; i <= 99; i++) {
+//            if((i % 10) + (i / 10) % 10 > 5) {
+//                array[j] = i;
+//                j++;
+//            }
+//        }
+//        System.out.println(Arrays.toString(array));
+
+
+
+        //307
+//        int count = 0;
+//        for(int i = 100; i <= 999; i++) {
+//            if((i % 10) + ((i / 10) % 10) +((i / 100) % 10) == 9) {
+//                count++;
+//            }
+//        }
+//        int[] array = new int[count];
+//        for(int i = 100, j = 0; i <= 999; i++) {
+//            if((i % 10) + ((i / 10) % 10) +((i / 100) % 10) == 9) {
+//                array[j] = i;
+//                j++;
+//            }
+//        }
+//        System.out.println(Arrays.toString(array));
+
+
+
+        //308
+//        int k = 99;
+//        int count = 0;
+//        for(int i = 10; i <= 999; i++) {
+//            if(i % k == 0) {
+//                count++;
+//            }
+//        }
+//        int[] array = new int[count];
+//        for(int i = 10, j = 0; i <= 999; i++) {
+//            if(i % k == 0) {
+//                array[j] = i;
+//                j++;
+//            }
+//        }
+//        System.out.println(Arrays.toString(array));
+
+
+
+        //309
+//        int count = 0;
+//        for(int i = 10; i <= 99; i++) {
+//            if(i % 2 != 0 && i % 3 != 0) {
+//                count++;
+//            }
+//        }
+//        int[] array = new int[count];
+//        for(int i = 10, j = 0; i <= 99; i++) {
+//            if(i % 2 != 0 && i % 3 != 0) {
+//                array[j] = i;
+//                j++;
+//            }
+//        }
+//        System.out.println(Arrays.toString(array));
+
+
+
+        //310
+        int count = 0;
+        for(int i = 100; i <= 999; i++) {
+            if((i % 10) != (i / 10) % 10) {
+                count++;
+            }
+        }
+        int[] array = new int[count];
+        for(int i = 100, j = 0; i <= 999; i++) {
+            if((i % 10) != (i / 10) % 10) {
+                array[j] = i;
+                j++;
+            }
+        }
+        System.out.println(Arrays.toString(array));
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
